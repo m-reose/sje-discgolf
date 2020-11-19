@@ -6,8 +6,8 @@ html,body{
 
 body{
     display: grid;
-    grid-template-columns: 200px 50px auto 50px 200px;
-    grid-template-rows: 50px 300px 300px 300px 300px 30px;
+    grid-template-columns: 150px 50px auto 50px 150px;
+    grid-template-rows: 50px 300px auto min-content;
 }
 
 header{
@@ -30,7 +30,7 @@ header a{
 footer{
     grid-column-start: 1;
     grid-column-end: 6;
-    grid-row: 6;
+    grid-row: 4/5;
 
     display: flex;
     justify-content:space-around;
@@ -56,5 +56,5 @@ footer h2{
 .container{
     grid-column-start: 2;
     grid-column-end: span 3;
-    grid-row: 3;
+    grid-row: 3/4;
 }
