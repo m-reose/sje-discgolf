@@ -59,7 +59,7 @@
   }
   
   /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
+  .active1, .dot:hover {
     background-color: #717171;
   }
   
